@@ -860,6 +860,8 @@ header nav .form i {
   text-decoration: none;
   border: 1px solid var(--main-color);
   width: fit-content;
+      color: var(--main-color);
+
 }
 .pricing .contact-text {
   text-align: center;
