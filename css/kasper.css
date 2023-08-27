@@ -299,7 +299,7 @@ header nav .form i {
 
 .services .services-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(391px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 40px;
 }
