@@ -20,6 +20,13 @@ body {
 ul {
   list-style: none;
 }
+.tru {
+  display: block;
+}
+
+.fal {
+  display: none;
+}
 
 .container {
   padding-left: 15px;
