@@ -1103,3 +1103,25 @@ header nav .form i {
   color: var(--main-color);
 }
 /* End Footer */
+/* Start scrool */
+
+.scrool {
+  position: relative;
+}
+
+.scrool p {
+  height: 40px;
+  width: 40px;
+  background: var(--transpearent-color);
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.9s;
+  cursor: pointer;
+}
+/* End scrool */
