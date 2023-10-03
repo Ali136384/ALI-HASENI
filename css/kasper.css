@@ -302,6 +302,8 @@ header nav .form i {
   grid-template-columns: repeat(auto-fill, minmax(391px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 40px;
+  justify-content: center;
+
 }
 
 .services .services-container .srv-box {
@@ -322,7 +324,10 @@ header nav .form i {
 
   color: var(--main-color);
 }
-
+.services .services-container .srv-box .text {
+max-width: 85%;
+    margin: 0 auto;
+}
 .services .services-container .srv-box .text p {
   margin-top: 10px;
   color: #333;
